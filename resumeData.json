@@ -1,0 +1,128 @@
+{
+  "main": {
+    "name": "James Johnson",
+    "description": "Web Developer",
+    "image": "profilepic.jpg",
+    "bio": "Front-end web developer with a background in psychology and cisco networking to bring a unique perspective to building web applications. Recently earned a full-stack certificate from Southern Methodist University, where I honed my skills with javascript, jquery, react, and css with css frameworks. With each project I am a part of I aim to keep a user-driven perspective, as well as collaborate with my team members to create the best product we can. I look forward to leveraging my skills with a professional team as I continue to grow.",
+    "contactmessage": "If you're interested in what I do, please don't hesitate to contact me.",
+    "email": "mrjam7@gmail.com",
+    "phone": "317-513-5003",
+    "github": "https://github.com/JamesJ995",
+    "project": "https://www.linkedin.com/in/james-johnson-a4663b210/",
+    "address": {
+      "street": "8600 Thackery St, APT 5304",
+      "city": "Dallas",
+      "state": "Texas",
+      "zip": "75225"
+    },
+    "website": "",
+    "resumedownload": "resumePDF.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/james-johnson-a4663b210/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/JamesJ995",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "Purdue University",
+        "degree": "B.S. in Psychology",
+        "graduated": "December 2020"
+      },
+      {
+        "school": "Southern Methodist University",
+        "degree": "Full-Stack Web Development",
+        "graduated": "October 2021",
+        "description": "6-month bootcamp program."
+      }
+    ],
+    "work": [
+      {
+        "company": "Awesome Design Studio",
+        "title": "Senior UX God ",
+        "years": "March 2018 - Present",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company": "Super Cool Studio",
+        "title": "Junior bug fixer",
+        "years": "March 2017 - February 2018",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "80%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "70%"
+      },
+      {
+        "name": "HTML",
+        "level": "90%"
+      },
+      {
+        "name": "mongoDB",
+        "level": "80%"
+      },
+      {
+        "name": "MySQL",
+        "level": "60%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Muffin",
+        "category": "Point-of-Sale solution for small retailers",
+        "image": "01.PNG",
+        "url": "https://github.com/JamesJ995/MuffinPOS"
+      },
+      {
+        "title": "Fitness Tracker",
+        "category": "Website for tracking workout routines",
+        "image": "02.PNG",
+        "url": "https://github.com/JamesJ995/WorkoutTracker"
+      },
+      {
+        "title": "Tech Blog",
+        "category": "Read-write tech inspired blog page",
+        "image": "03.PNG",
+        "url": "https://github.com/JamesJ995/TechBlog"
+      },
+      {
+        "title": "Portfolio Website",
+        "category": "A React based portfolio website",
+        "image": "04.PNG",
+        "url": "https://github.com/JamesJ995/ReactPortfolio"
+      },
+      {
+        "title": "README_Generator",
+        "category": "Node.js based readme generator",
+        "image": "05.gif",
+        "url": "https://github.com/JamesJ995/README_Generator"
+      },
+      {
+        "title": "Weather Dashboard",
+        "category": "Weather site which fetches weather data from the google API",
+        "image": "06.jpg",
+        "url": "https://github.com/JamesJ995/WeatherDashboard"
+      }
+    ]
+  }
+}
