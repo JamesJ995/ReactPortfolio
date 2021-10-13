@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Zmage from 'react-zmage';
 import Fade from 'react-reveal';
+import Card from 'react-bootstrap/Card';
+
 
 let id = 0;
 class Portfolio extends Component {
@@ -9,11 +10,28 @@ class Portfolio extends Component {
 
     const projects = this.props.data.projects.map(function (projects) {
       let projectImage = 'images/portfolio/' + projects.image;
+      let projectURL = projects.url;
+      function handleClick() {
+        window.location = projectURL;
+      }
 
       return (
         <div key={id++} className="columns portfolio-item">
           <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
+            <Card.Img
+              onClick={handleClick}
+              variant="top"
+              className="box p-2"
+              alt={projects.title}
+              src={projectImage}
+              width="500px"
+              height="250px"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label={projects.title}
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            />
             <div style={{ textAlign: 'center' }}>{projects.title}</div>
           </div>
         </div>
@@ -30,7 +48,6 @@ class Portfolio extends Component {
               <div
                 id="portfolio-wrapper"
                 className="bgrid-quarters s-bgrid-thirds cf"
-                onClick={(e) => {e.preventDefault()}}
               >
                 {projects}
               </div>

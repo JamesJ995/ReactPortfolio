@@ -25,7 +25,7 @@ class Footer extends Component {
               <ul className="copyright">
                 <li>
                   Design by{" "}
-                  <a title="Styleshout">
+                  <a title="Thank you for visiting!">
                     James Johnson
                   </a>
                 </li>
